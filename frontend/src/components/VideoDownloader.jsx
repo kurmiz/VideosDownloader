@@ -9,7 +9,7 @@ const VideoDownloader = () => {
   const [videoData, setVideoData] = useState(null)
   const [error, setError] = useState('')
 
-  const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+  const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://videosdownloader.onrender.com'
 
   const handleSubmit = async (e) => {
     e.preventDefault()
