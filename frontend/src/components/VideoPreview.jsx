@@ -1,4 +1,4 @@
-import React from 'react'
+  import React from 'react'
 import { Download, Clock, Eye, User, FileVideo, Music } from 'lucide-react'
 
 const VideoPreview = ({ videoData }) => {
@@ -28,7 +28,7 @@ const VideoPreview = ({ videoData }) => {
     }
     if (count >= 1000) {
       return (count / 1000).toFixed(1) + 'K views'
-    }
+    } 
     return count + ' views'
   }
 
