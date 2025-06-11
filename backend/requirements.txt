@@ -4,3 +4,12 @@ yt-dlp>=2024.12.13
 python-multipart==0.0.6
 python-dotenv==1.0.0
 pydantic==2.5.0
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+yt-dlp==2024.12.13  # Pinned version
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==2.5.0
+brotli==1.1.0
+websockets==12.0
+pycryptodomex==3.20.0
