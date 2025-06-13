@@ -22,7 +22,7 @@ cors_origins = os.getenv("CORS_ORIGINS", "")
 origins = cors_origins.split(",") if cors_origins else [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://cozy-parfait-9d3057.netlify.app"  # Your Netlify URL
+    "https://videodownloaders.netlify.app/"  # Your Netlify URL
 ]
 
 app.add_middleware(
